@@ -30,3 +30,6 @@ cd quiz-app
 ### Screenshot 4
 ![Screenshot 4](src/assets/4.png)
 
+## Video
+![Video](src/assets/5.mkv) 
+
