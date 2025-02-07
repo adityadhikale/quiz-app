@@ -3,7 +3,7 @@ import axios from "axios";
 import Question from "./Question";
 import Score from "./Score";
 import { QuizData } from "../types";
-import LoadingBar from "react-top-loading-bar";
+import LoadingBar, { LoadingBarRef } from "react-top-loading-bar";
 
 const Quiz = () => {
   const [quizData, setQuizData] = useState<QuizData | null>(null);
@@ -11,7 +11,7 @@ const Quiz = () => {
   const [score, setScore] = useState<number>(0);
   const [showScore, setShowScore] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);
-  const loadingBarRef = useRef<LoadingBar | null>(null);
+  const loadingBarRef = useRef<LoadingBarRef | null>(null);
 
   useEffect(() => {
     const fetchQuizData = async () => {
