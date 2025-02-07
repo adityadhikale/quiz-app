@@ -6,9 +6,9 @@ This is a simple quiz application built with React, Vite, and Tailwind CSS. It f
 
 1.  Clone the repository:
 git clone https://github.com/adityadhikale/quiz-app
- `cd quiz-app`
-2. Install dependencies: `npm install`.
-3. Run the app: `npm run dev`.
+2. Change directory: `cd quiz-app`
+3. Install dependencies: `npm install`.
+4. Run the app: `npm run dev`.
 
 ## Features ✨
 
